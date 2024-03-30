@@ -1,0 +1,16 @@
+{
+    "general": {
+        "name": "ProjectFlow",
+        "version": "1.0",
+        "author": "STAUSS Baptiste"
+    },
+    "compiler": {
+        "flags": ["-Wall", "-Werror", "-Wextra"],
+        "include_dir": "includes",
+        "src_dir": "src",
+        "build_dir": "build",
+        "output_dir": "bin",
+        "class_dir": "class",
+        "lib_dir": "lib"
+    }
+}
