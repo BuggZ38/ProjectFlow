@@ -8,6 +8,12 @@ class App{
 private:
     std::string appVersion;
     std::string appName;
+    std::string projectName;
+    std::string projectAuthor;
+    std::string projectDescription;
+    std::string projectVersion;
+    std::string projectPath;
+    std::string projectType;
     void startTitle(std::string, std::string);
 
 public:
