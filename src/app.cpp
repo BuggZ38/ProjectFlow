@@ -47,6 +47,23 @@ void App::printText(string text)
     cout << text << RESET;
 }
 
+int App::startProject()
+{
+//creation de projet
+}
+
+
+int App::saveProject(int id)
+{
+//sauvegarde du projet cree en fichier
+}
+
+
+int App::delProject(int id)
+{
+//suppression d'un projet
+}
+
 
 App::~App()
 {

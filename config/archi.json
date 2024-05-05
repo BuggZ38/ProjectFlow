@@ -1,0 +1,103 @@
+{
+    "webStatic" : {
+        "styles" : {
+            "type" : "folder",
+            "content" : {
+                "style" : {
+                    "type" : "file",
+                    "extention" : "css",
+                    "content" : "body{\n\tmargin:0;\n\tpadding:0;\n\ttop:0;\n\tbottom:0;\n\tleft:0;\n\tright:0;\n}"
+                }
+            }
+        },
+
+        "scripts":{
+            "type" : "folder",
+            "content" : {
+                "app" : {
+                    "type" : "file",
+                    "extention" : "js",
+                    "content" : ""
+                }
+            }
+        },
+
+        "media" : {
+            "type" : "folder",
+            "content" : {
+                "images" : {
+                    "type" : "folder",
+                    "content" : ""
+                },
+                "videos" : {
+                    "type" : "folder",
+                    "content" : ""
+                }
+            }
+        },
+
+        "index" : {
+            "type" : "file",
+            "extention" : "html",
+            "content" : "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"UTF-8\">\n\t\t<title>Document</title>\n\t\t<link rel=\"stylesheet\" href=\"styles/style.css\">\n\t</head>\n\t<body>\n\n\t\t<script src=\"scripts/app.js\"></script>\n\t</body>\n</html>"
+        }
+    },
+
+
+
+
+
+    "cpp" : {
+        "src" : {
+            "type" : "folder",
+            "content" : {
+                "main" : {
+                    "type" : "file",
+                    "extention" : "cpp",
+                    "content" : "#include <iostream>\n\nusing namespace std;\n\nint main(){\n\nreturn 0;\n}"
+                }
+            }
+        },
+        "includes":{
+            "type" : "folder",
+            "content" : {
+                "include" : {
+                    "type" : "file",
+                    "extention" : "h",
+                    "content" : ""
+                }
+            }
+        },
+        "bin" : {
+            "type" : "folder",
+            "content" : ""
+        },
+        "build" : {
+            "type" : "folder",
+            "content" : ""
+        },
+        "lib" : {
+            "type" : "folder",
+            "content" : ""
+        },
+        "tests" : {
+            "type" : "folder",
+            "content" : ""
+        },
+        "config" : {
+            "type" : "folder",
+            "content" : {
+                "config" : {
+                    "type" : "file",
+                    "extention" : "json",
+                    "content" : "{\n\"general\":{\n\"name\": \"\",\n\"version\": \"1.0\",\n\"author\": \"\"\n}\n}"
+                }
+            }
+        },
+        "Makefile" : {
+            "type" : "file",
+            "extention" : "",
+            "content" : "a mettre les base d'un makefile"
+        }
+    }
+}
